@@ -1,0 +1,321 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter';
+    display: block;
+
+}
+
+.fixed-home {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 92vw;
+    margin-top: 1%;
+    padding-left: 1%;
+}
+
+.fixed-home div {
+    flex-direction: row;
+    display: flex;
+
+}
+
+.fa-bars {
+    margin-left: 95%;
+    margin-top: 1.5%;
+}
+
+.fa-adjust {
+    margin-left: 92%;
+    margin-top: 1.5%;
+}
+
+.fixed-row  {
+    position:fixed;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-left: 45px;
+    margin-top: 21%;
+}
+
+
+h1 {
+    text-align: right;
+    font-weight: normal;
+    display: inline-block;
+    font-size: 15px;
+}
+
+h2 {
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    padding-top: 15%;
+    padding-left: 2%;
+    padding-bottom: 15%;
+}
+
+.img-background {
+    background-image: url("imgs/img.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.text-img {
+    font-weight: normal;
+    margin-top: 10%;
+    margin-left: 7.5%;
+    margin-bottom: 10%;
+}
+
+
+ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.li-elementos {
+    font-weight: normal;
+    font-size: 14px;
+    color:	#909090;
+    line-height: 180%;
+}
+
+.li-caracteristicas{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    margin-left: 2.5%;
+}
+
+p {
+    display: inline-block;
+    margin-left: 9%;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+img {
+    width: 60%;
+    height: 200%;
+    margin-top: 10%;
+    margin-left: 17%;
+    border-radius: 20px;
+}
+
+.imgs-menor-maior {
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6%;
+    width: 50%;
+    height: 500%;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    margin-left: 8%;
+}
+
+.menor {
+    margin-top: 10px;
+}
+
+.maior {
+    margin-top: 120px;
+}
+
+.descricao {
+    margin-left: 10%;
+    margin-top: -150px;
+}
+
+.img5 {
+    margin-top: 1.5%;
+    margin-bottom: 10%;
+}
+
+.img-desc-bol {
+    margin-left: 7%;
+}
+
+.descricao2 {
+    margin-left: 35%;
+}
+
+.bolinhas {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-top: 15%;
+    padding-right: 18%;
+}
+
+.starry {
+    text-align: center;
+    color: #fff;
+}
+
+.red {
+    text-align: center;
+    color: #fff;
+ }
+ .bolinha {
+    background-image: url("imgs/bola-preta.svg");
+    text-align: center;
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+footer {
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+.footer {
+  list-style: none;
+  margin-left: 7%;
+  column-gap: 20%;
+  line-height: 30px;
+}
+
+.footer li {
+  display: inline-flex;
+  padding: 0 20px;
+  position: relative;
+}
+
+.footer li:not(:last-child)::after {
+  content: "";
+  border: 1px solid #e2e2e2;
+  border-width: 1px 1px 0 0;
+  position: absolute;
+  right: -3px;
+  top: 0;
+  height: 100%;
+}
+
+.fa-arrow-alt-circle-up {
+    margin: 5px 0 0  15px;
+    font-size: 20px;
+}
+
+.fa-arrow-up {
+    margin: 5px 0 0 15px;
+    font-weight: normal;
+    font-size: 20px;
+    transform: rotate(45deg);
+}
+
+.pf {
+    display: inline-block;
+    margin-left: 9%;
+}
+
+.fa-long-arrow-alt-right {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    transform: rotate(180deg);
+}
+
+.fa-long-arrow-alt-down {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    transform: rotate(-90deg);
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color:rgb(236, 78, 236);
+}
+
+
+@media (max-width: 760px) {
+
+    body {
+        margin: 0 0 0 0;
+    }
+     
+    main {
+        margin: auto; 
+    }
+
+    .fixed-row {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+
+    h2 {
+        align-items: center;
+        line-height: 40px;
+        font-size: 30px;   
+    }
+
+    img {
+        margin-left: 10px;
+    }
+       
+    .li-elementos {
+        margin-top: 5px;
+        margin-right: 7px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    .li-caracteristicas {
+       margin-top: 5px;
+       margin-left: 30px;
+    }
+    
+    p {
+        margin: 0 0 0 -10px;
+    }
+
+    .imgs-menor-maior {
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+
+    .descricao {
+        margin-top: 40px;
+        margin-right: 50px;
+        font-size: 15px;
+        line-height: 32px;
+    } 
+
+    .descricao2 {
+        font-size: 15px;
+        line-height: 32px;
+        margin: auto;
+    }
+
+    .bolinhas {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer {
+        padding-top: 15px;
+        position: relative;
+    }
+
+}
+
+
+
+
